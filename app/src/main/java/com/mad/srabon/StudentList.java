@@ -23,10 +23,10 @@ public class StudentList extends AppCompatActivity {
         setContentView(R.layout.activity_student_list);
         recyclerView=findViewById(R.id.studentListView);
         list=new ArrayList<>();
-        Student student1=new Student("Srabon","01613162522");
-        Student student2=new Student("Shanto","01613162522");
-        Student student3=new Student("Shakil","01613162522");
-        Student student4=new Student("Ritu","01613162522");
+        Student student1=new Student("Srabon","01613162522","sfhdjah@gmail.com","fdjakfa");
+        Student student2=new Student("Srabon","01613162522","sfhdjah@gmail.com","fdjakfa");
+        Student student3=new Student("Srabon","01613162522","sfhdjah@gmail.com","fdjakfa");
+        Student student4=new Student("Srabon","01613162522","sfhdjah@gmail.com","fdjakfa");
         list.add(student1);
         list.add(student2);
         list.add(student3);

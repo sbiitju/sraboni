@@ -37,6 +37,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
         holder.studentImg.setImageResource(pictureList[position]);
         holder.studentNumber.setText(studentList.get(position).getNumber());
         holder.studentName.setText(studentList.get(position).getName());
+        holder.studentEmail.setText(studentList.get(position).getEmail());
+        holder.studentDistrict.setText(studentList.get(position).getDistrict());
     }
 
     @Override
